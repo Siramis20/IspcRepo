@@ -1,0 +1,21 @@
+public class MyClass {
+    public static void main(String args[]) {
+      int x=10;
+      int y=25;
+      int z=15;
+      int s=x+y+z;
+      Coche MiCoche = new Coche();
+      MiCoche.sumarPuerta();
+      
+      System.out.println(MiCoche.puertas);  
+      System.out.println("La suma de x+y+z = " + s);
+    }
+}
+
+class Coche {
+    public int puertas = 4;
+    
+    public void sumarPuerta() {
+        puertas++;
+    }
+}  
